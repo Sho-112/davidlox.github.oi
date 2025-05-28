@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Финансовое пособие</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: linear-gradient(135deg, #d0f0c0, #a3d977);
+      color: #1b3a17;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background: #4caf50;
+      color: #e8f5e9;
+      width: 100%;
+      max-width: 960px;
+      border-radius: 15px;
+      padding: 30px 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-weight: 700;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+
+    main {
+      width: 100%;
+      max-width: 960px;
+    }
+
+    section {
+      background: #a7d588;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      padding: 25px 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #27632a;
+      border-bottom: 3px solid #4caf50;
+      padding-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 14px;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #234d10;
+    }
+
+    li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #2e7d32;
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1;
+      user-select: none;
+      text-shadow: 0 0 3px #b9f6ca;
+    }
+
+    footer {
+      margin-top: auto;
+      width: 100%;
+      max-width: 960px;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.9rem;
+      color: #2e7d32;
+      user-select: none;
+    }
+
+    @media (max-width: 640px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      li {
+        font-size: 1rem;
+      }
+      section {
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Основные темы пособия по финансовой грамотности</h1>
+  </header>
+  <main>
+    <section>
+      <h2>1. Что такое деньги и как они появляются</h2>
+      <ul>
+        <li><strong>История возникновения денег.</strong> Узнайте, как раньше люди обменивались товарами и почему потребовались деньги.</li>
+        <li><strong>Роль денег в современном обществе.</strong> Деньги — это не просто бумажки, а средство обмена, мера стоимости и средство накопления.</li>
+        <li><strong>Основные виды денег:</strong> наличные (банкноты и монеты), безналичные средства (банковские счета), электронные кошельки и платежные системы.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Доходы и расходы</h2>
+      <ul>
+        <li><strong>Откуда берутся деньги в семье:</strong> заработная плата, собственный бизнес, государственные пособия и помощь.</li>
+        <li><strong>Постоянные и переменные расходы:</strong> ежемесячные платежи за жильё и транспорт, а также переменные расходы на еду, развлечения и покупки.</li>
+        <li><strong>Карманные деньги:</strong> зачем нужны и как научиться ими распоряжаться с пользой — учимся быть финансово ответственными с малого возраста.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Бюджетирование</h2>
+      <ul>
+        <li><strong>Семейный и личный бюджет:</strong> почему важно планировать доходы и расходы, чтобы не тратить больше, чем зарабатываешь.</li>
+        <li><strong>Принципы составления бюджета:</strong> разбиение доходов на нужды, желания и сбережения.</li>
+        <li><strong>Практическое ведение бюджета:</strong> использование тетради, таблиц или мобильных приложений для учета расходов и доходов, графики и схемы помогут визуализировать движение денег.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Сбережения и цели</h2>
+      <ul>
+        <li><strong>Почему важно копить деньги:</strong> формируем привычку откладывать средства для важных покупок и будущих нужд.</li>
+        <li><strong>Постановка финансовых целей:</strong> учимся ставить реальные и достижимые задачи — накопить на игрушку, гаджет или поездку.</li>
+        <li><strong>Инструменты для накопления:</strong> копилка для мелочи, банковский счет, детская карта с контролем расходов.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Как принимать решения о тратах</h2>
+      <ul>
+        <li><strong>Определение приоритетов:</strong> отличаем, что «хочу» от того, что «надо», чтобы не тратить деньги впустую.</li>
+        <li><strong>Как сравнивать цены и выбирать выгодные предложения:</strong> читаем отзывы, оцениваем качество и соотносим с ценой.</li>
+        <li><strong>Опасность импульсивных покупок:</strong> учимся контролировать эмоции и планировать покупки заранее.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Безопасность и ответственность</h2>
+      <ul>
+        <li><strong>Как не стать жертвой мошенников:</strong> распознавание основных схем обмана, осторожность при общении с незнакомцами и в интернете.</li>
+        <li><strong>Основы финансовой безопасности:</strong> не сообщать свои личные данные, PIN-коды, пароли и другую конфиденциальную информацию.</li>
+        <li><strong>Ответственность за свои решения:</strong> понимание последствий трат и важность обдуманных действий с деньгами.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Основы инвестирования и кредитования (для подростков)</h2>
+      <ul>
+        <li><strong>Что такое инвестиции и кредиты:</strong> разбираемся в простых понятиях, чтобы научиться управлять деньгами эффективно.</li>
+        <li><strong>Принципы работы банков, кредитных карт и процентов:</strong> как работают банки и зачем платить проценты по кредитам.</li>
+        <li><strong>Почему важно читать договоры:</strong> учимся внимательно изучать условия и не бояться задавать вопросы.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 ООО "МММ Марвродий" — Учимся финансовой грамотности вместе!(сделано по заказу. Сделал Стопка)
+    <a href="http://qrcoder.ru" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fdiscord.gg%2FuqTZgZ77&4&0" width="148" height="148" border="0" title="QR код"></a>
+  </footer>
+</body>
+</html>
+
